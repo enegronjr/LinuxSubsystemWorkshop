@@ -1,3 +1,8 @@
+PowerShell command to enable subsystem:
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+
 Update new subsystem:
 
 sudo apt-get update --fix-missing: updates the list of packages and their versions, but does not install or upgrade anything
